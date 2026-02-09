@@ -1,0 +1,117 @@
+# IKI - Breathing Exercise Application
+
+A Python-based wellness application that guides users through therapeutic breathing exercises with visual feedback and frequency-tuned audio.
+
+---
+---
+
+## About
+
+**Iki** (from Japanese: 息 - "breath" or "life force") is a desktop application designed to help users manage stress, anxiety, and sleep issues through guided breathing exercises. The application combines:
+
+- **Evidence-based breathing patterns** from clinical research
+- **Therapeutic sound frequencies** (174 Hz, 396 Hz, 417 Hz, 528 Hz)
+- **Immersive visual feedback** with smooth animations and particle effects
+- **Intuitive user interface** for seamless navigation
+
+Built as an academic project to demonstrate Python programming skills and wellness technology integration.
+
+---
+
+## Features
+
+### Visual Guidance
+- Animated breathing circle that expands (inhale) and contracts (exhale)
+- Mode-specific color palettes based on color psychology
+- Multi-layered aura effects with wave patterns
+- Particle system with smooth animations (60 FPS)
+- Calming background gradients and drifting elements
+
+### Audio Integration
+- Therapeutic frequency-tuned background music
+- Seamless audio looping with custom event system
+- Mode-specific ambient soundscapes
+- 174 Hz (Sleep), 396 Hz (Anxiety), 417 Hz (Anger), 528 Hz (Meditation)
+
+### Four Breathing Modes
+1. **Sleep Mode** - 4-4-8-0 pattern for relaxation
+2. **Anger Relief** - 4-4-6-0 pattern for emotional balance
+3. **Anxiety Relief** - 4-7-8-0 pattern (Dr. Weil's technique)
+4. **Meditation Prep** - 4-4-4-4 square breathing for focus
+
+### User Experience
+- Mouse and keyboard controls (1-4 keys for quick access)
+- Smooth hover animations and transitions
+- Real-time phase indicators (INHALE, HOLD, EXHALE)
+- Countdown timers for each breathing phase
+- Easy back navigation (ESC key or back button)
+
+---
+
+
+
+## Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
+
+### Step 1: Clone the Repository
+```bash
+git clone https://github.com/yourusername/iki-breathing-app.git
+cd iki-breathing-app
+```
+
+### Step 2: Install Dependencies
+```bash
+pip install pygame
+```
+
+### Step 3: Add Music Files
+Place your MP3 music files in the `assets/music/` directory:
+```
+assets/
+└── music/
+    ├── sleep.mp3      # 174 Hz frequency music
+    ├── anger.mp3      # 417 Hz frequency music
+    ├── anxiety.mp3    # 396 Hz frequency music
+    └── meditation.mp3 # 528 Hz frequency music
+```
+
+**Note:** Music files are not included in the repository due to licensing. You can use your own frequency-tuned ambient music or royalty-free alternatives.
+
+### Step 4: Run the Application
+```bash
+python main.py
+```
+
+---
+
+
+### Controls
+
+**Keyboard Shortcuts:**
+- `1` - Sleep Mode
+- `2` - Anger Relief Mode
+- `3` - Anxiety Relief Mode
+- `4` - Meditation Preparation Mode
+- `ESC` - Return to home screen / Exit app
+
+**Mouse Controls:**
+- Click on any mode button to start
+- Click the back arrow (←) to return home
+- Hover over buttons for visual feedback
+
+### Breathing Guide
+
+1. **Select a mode** based on your current need
+2. **Focus on the breathing circle** in the center
+3. **Follow the visual cues:**
+   - Circle expands → INHALE
+   - Circle holds → HOLD
+   - Circle contracts → EXHALE
+4. **Watch the countdown timer** to pace your breathing
+5. **Practice for 5-10 minutes** for best results
+
+---
+
